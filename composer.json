@@ -23,7 +23,7 @@
       "luyadev/luya-module-cms":"*",
       "luyadev/luya-module-admin":"*",
       "yoast/phpunit-polyfills": "^0.2.0",
-      "insolita/yii2-muffin-factory": "^2.0",
+      "insolita/yii2-muffin-factory": "^2.0"
    },
    "support":{
       "issues":"https://github.com/luyadev/luya/issues"
