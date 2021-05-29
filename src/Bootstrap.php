@@ -26,5 +26,14 @@ class Bootstrap implements BootstrapInterface
                 'class' => GenerateFixtureController::class,
             ];
         }
+        
+        \Yii::$container->setSingleton(
+            \insolita\muffin\Factory::class,
+            [],
+            [
+                Factory::create('en_EN'),  //Faker language
+                '@app/database/factories'         // Custom directory for factories
+            ]
+        );
     }
 }
