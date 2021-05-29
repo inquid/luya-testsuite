@@ -1,5 +1,5 @@
 {
-   "name":"luyadev/luya-testsuite",
+   "name":"inquid/luya-testsuite",
    "description":"TestCases and Data for LUYA Modules and Components. Makes testing less pain.",
    "type":"luya-core",
    "keywords":[
