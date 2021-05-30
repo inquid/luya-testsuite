@@ -11,6 +11,7 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
+defined('TESTING') or define('TESTING', true);
 
 /**
  * Base Test Suite.
