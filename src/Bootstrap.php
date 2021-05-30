@@ -5,6 +5,7 @@ namespace luya\testsuite;
 use luya\testsuite\commands\GenerateFixtureController;
 use yii\base\BootstrapInterface;
 use yii\console\Application;
+use Faker\Factory;
 
 /**
  * TestSuite Bootstrap
